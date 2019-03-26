@@ -16,4 +16,7 @@ module.exports = class AffectionBase extends commando.Command {
 			]
 		});
 	}
+	run (msg, args) {
+		msg.reply("Tell the owner he didn't subclass an abstract class");
+	}
 }
