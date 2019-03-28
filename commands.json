@@ -1,0 +1,22 @@
+[
+	{
+		"name": "bounce",
+		"description": "biong biong!",
+		"group": "pats",
+		"defaultArgs": false,
+		"output": {
+			"title": "*biong biong!*",
+			"description": "{{authorName}} bounces around fluffily!"
+		}
+	},
+	{
+		"name": "bop",
+		"description": "bop someone on the nose!",
+		"group": "pats",
+		"defaultArgs": true,
+		"output": {
+			"title": "*nosepoke*",
+			"description": "{{authorName}} sinks their nose into {{args.user.username}}!"
+		}
+	}
+]
