@@ -9,6 +9,7 @@ const client = new commando.Client({
 client
 	.on("debug", process.env.debug?console.log:()=>{})
 	.on("ready", ()=>{console.log("Ready")})
+	.on("error", console.error);
 
 client.registry.registerGroups(secrets.groups);
 
